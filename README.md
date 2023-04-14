@@ -25,9 +25,9 @@ To get started with Favor-Stream, you will need to have Node.js and MongoDB
 installed on your machine. You will also need to set up an AWS S3 account for
 video storage.
 
-    Clone the repository to your local machine using git clone https://github.com/yourusername/favor-stream.git
-    Install dependencies using npm install
-    Create a .env file in the root directory of the project and add the following variables:
+Clone the repository to your local machine using git clone https://github.com/yourusername/favor-stream.git
+Install dependencies using npm install
+Create a .env file in the root directory of the project and add the following variables:
 
 
     MONGO_URI=your_mongodb_uri
