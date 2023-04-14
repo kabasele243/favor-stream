@@ -37,17 +37,17 @@ Create a .env file in the root directory of the project and add the following va
     AWS_BUCKET_NAME=your_aws_bucket_name
     JWT_SECRET=your_jwt_secret
 
-    Run the development server using npm run dev
-    Navigate to http://localhost:3000 in your browser to see the app.
+Run the development server using npm run dev
+Navigate to http://localhost:3000 in your browser to see the app.
 
 Contributing
 
 If you would like to contribute to Favor-Stream, please follow these steps:
 
-    Fork the repository
-    Create a new branch for your feature or bug fix
-    Commit your changes and push your branch to your fork
-    Submit a pull request to the develop branch of the main repository
+Fork the repository
+Create a new branch for your feature or bug fix
+Commit your changes and push your branch to your fork
+Submit a pull request to the develop branch of the main repository
 
 License
 
