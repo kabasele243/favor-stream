@@ -1,38 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Favor-Stream
 
-## Getting Started
+Favor-Stream is a streaming platform built using Next.js that allows users to
+watch their favorite movies, TV shows, and live events. The platform is designed
+to be easy to use and has a clean, modern user interface. Features
 
-First, run the development server:
+    User authentication
+    Search functionality
+    Watchlist feature
+    Recommended content based on user preferences
+    Responsive design for mobile devices
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Next.js
+    React
+    Node.js
+    Express.js
+    MongoDB
+    AWS S3 for video storage
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Getting Started
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+To get started with Favor-Stream, you will need to have Node.js and MongoDB
+installed on your machine. You will also need to set up an AWS S3 account for
+video storage.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+    Clone the repository to your local machine using git clone https://github.com/yourusername/favor-stream.git
+    Install dependencies using npm install
+    Create a .env file in the root directory of the project and add the following variables:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+    MONGO_URI=your_mongodb_uri
+    AWS_ACCESS_KEY_ID=your_aws_access_key_id
+    AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+    AWS_REGION=your_aws_region
+    AWS_BUCKET_NAME=your_aws_bucket_name
+    JWT_SECRET=your_jwt_secret
 
-To learn more about Next.js, take a look at the following resources:
+    Run the development server using npm run dev
+    Navigate to http://localhost:3000 in your browser to see the app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you would like to contribute to Favor-Stream, please follow these steps:
 
-## Deploy on Vercel
+    Fork the repository
+    Create a new branch for your feature or bug fix
+    Commit your changes and push your branch to your fork
+    Submit a pull request to the develop branch of the main repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Favor-Stream is licensed under the MIT License. See LICENSE for more
+information.
